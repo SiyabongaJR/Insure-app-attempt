@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>silasmaodi@gmail.com</contactEmail>
+    <label>ExternalObjectsInsurer</label>
+    <oauthConfig>
+        <callbackUrl>https://mindful-goat-bp5v4m-dev-ed.trailblaze.my.salesforce.com/services/authcallback/Force_Insure</callbackUrl>
+        <consumerKey>3MVG9DREgiBqN9Wk7hNWP.12xSLxAanAFMrkb7h2ERxZuNNkOaitywm8d2kDGAbNzzUfeI.KlLCFFNFRAfPbm</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isClientCredentialEnabled>false</isClientCredentialEnabled>
+        <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
+        <isCodeCredentialPostOnly>false</isCodeCredentialPostOnly>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
